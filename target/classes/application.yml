@@ -1,6 +1,8 @@
 spring:
   application:
     name: data-integration-twodb-api
+  main:
+    time-zone: America/Sao_Paulo
   datasource:
     mysql:
       jdbc-url: jdbc:mysql://localhost:3306/testdb?allowPublicKeyRetrieval=true&useSSL=false
